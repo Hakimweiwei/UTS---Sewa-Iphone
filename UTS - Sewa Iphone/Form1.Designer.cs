@@ -175,6 +175,7 @@
             this.guna2TextBox1.SelectedText = "";
             this.guna2TextBox1.Size = new System.Drawing.Size(195, 20);
             this.guna2TextBox1.TabIndex = 12;
+            this.guna2TextBox1.TextChanged += new System.EventHandler(this.guna2TextBox1_TextChanged);
             // 
             // guna2ContextMenuStrip1
             // 

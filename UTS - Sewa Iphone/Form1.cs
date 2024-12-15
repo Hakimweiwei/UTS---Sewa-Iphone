@@ -39,12 +39,17 @@ namespace UTS___Sewa_Iphone
 
             try
             {
-                MessageBox.Show("Koneksi ke database berhasil");
+                MessageBox.Show("Koneksi database berhasil");
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Terjadi kesalahan: {ex.Message}");
+                MessageBox.Show($"Terjadi as kesalahan: {ex.Message}");
             }
+        }
+
+        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
